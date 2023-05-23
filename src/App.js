@@ -6,7 +6,7 @@ import Home from './Pages/Home';
 import Login from './Pages/Login';
 import Main from './Pages/Main';
 import Registration from './Pages/Registration';
-import ContactUS from './Pages/ContactUs';
+//import ContactUS from './Pages/ContactUs';
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
@@ -20,7 +20,6 @@ function App() {
           <Route path = "Login" element ={<Login/>} />
           <Route path = "Registration" element ={<Registration/>} />
           <Route path = "Main" element ={<Main/>} />
-          <Route path = "ContactUs" element ={<ContactUS/>} />
           
         </Routes>
         </BrowserRouter>
